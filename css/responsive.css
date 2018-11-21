@@ -1,0 +1,166 @@
+@media(min-width: 320px) and (max-width: 575px) {
+    .full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    min-width: 320px;
+    max-width: 575px;
+}
+    .nav-logo {
+	width: 320px;
+	text-align: center;
+}
+    .nav-logo img {
+	display: inline-block;
+	padding: 25px 0px 0px;
+}
+    .nav-menu {
+	width: 100%;
+}
+    .nav-menu ul li a {
+	padding-top: 40px;
+	padding-right: 20px;
+	letter-spacing: 0px;
+    padding-left: 20px;
+}
+    .banner-text h1 {
+	font-size: 36px;
+}
+    .banner-text p {
+	color: #242424;
+	width: 275px;
+}
+    .banner-text {
+	left: 14px;
+}
+    .about-head h2 {
+	font-size: 17px;
+	width: 320px;
+    margin: 0;
+}
+    .about-head h6 {
+	left: -116px;
+}
+    .about-1 {
+	width: 300px;
+}
+    .about-2 {
+	width: 250px;
+	left: -176px;
+	bottom: -160px;
+}
+    .about-img-2 img{
+        width: 280px;
+    }
+    .about-text {
+	width: 300px;
+	margin: 50px 10px;
+}
+    .buy-head {
+	width: 320px;
+}
+    .buy-1 {
+	margin: 50px 20px;
+}
+    .buy-text {
+	right: -24px;
+}
+    .training-text {
+	width: 320px;
+}
+    .training-cont {
+	width: 320px;
+	text-align: center;
+}
+    .training-cont h2::before {
+	left: 23px;
+}
+    .training-cont h2::after {
+	left: 33px;
+	color: #efefef;
+}
+    .point-text p, .training-cont p {
+	padding: 0px 5px;
+}
+    .trainig-img img {
+	width: 310px;
+	margin: 0px 5px;
+}
+    .trainig-img {
+	width: 320px;
+	padding-top: 32px;
+}
+    .point-img {
+	width: 320px;
+	 float: none; 
+}
+    .point-img img {
+	width: 300px;
+	margin: 0px 10px;
+}
+    .point-text {
+	width: 300px;
+	margin: 90px 10px 0px;
+}
+    .contact-text {
+	width: 320px;
+	 margin: 0;
+	text-align: center;
+}
+    .contact-text .mail {
+	width: 300px;
+}
+    .contact-text a i {
+	top: 2px;
+}
+    .camp-img img {
+	width: 300px;
+	margin: 0px 10px;
+}
+    .camp-img {
+	width: 320px;
+}
+    .camp-text {
+	width: 280px;
+	margin: 20px 20px;
+}
+    .camp-text h2 {
+	font-size: 28px;
+	padding-left: 24px;
+}
+    .footer-logo {
+	width: 320px;
+}
+    .footer-text {
+	width: 320px;
+}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 760px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 980px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1180px;
+}
+}
